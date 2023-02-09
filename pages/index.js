@@ -8,20 +8,14 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Up Start Template</title>
-          <meta property="og:title" content="Up Start Template" />
+          <title>Visafied</title>
+          <meta property="og:title" content="Visafied Template" />
         </Head>
         <div className="navbar-container">
           <div className="max-width">
             <div className="home-logo">
-              <img
-                alt="image"
-                src="/playground_assets/group%202.svg"
-                className="home-image"
-              />
               <span className="brandName">
-                <span className="home-text01">UP -</span>
-                <span> START</span>
+                <span> Visafied</span>
               </span>
             </div>
             <div className="home-links">
@@ -43,7 +37,7 @@ const Home = (props) => {
           <div className="home-max-width1 max-width">
             <div className="home-content">
               <span className="home-subtitle beforeHeading">
-                up-start finance system
+                Get Visafied
               </span>
               <h1 className="home-title">
                 <span>
