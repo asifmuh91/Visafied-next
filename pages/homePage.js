@@ -3,8 +3,6 @@ import Head from 'next/head'
 
 import Card from '../components/card'
 import { TbPhone, TbMapPin, TbMail } from "react-icons/tb";
-import AnimatedHeadline from './animated-headlines';
-import { XyzTransition } from "@animxyz/react";
 
 
 const TopNav = () => (
