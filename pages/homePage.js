@@ -31,17 +31,16 @@ const TopNav = () => (
 const HomePage = (props) => {
     return (
         <>
-            <div className='xyz-nested'>basdjasdasd</div>
-            <div className="home-container" xyz="fade flip-down stagger duration-10 delay-2 ease-out-back">
+            <div className="home-container" xyz="fade big stagger delay-10 ease-in-out">
                 <TopNav />
                 <Head>
                     <title>Visafied</title>
                     <meta property="og:title" content="Visafied Template" />
                 </Head>
-                <div className="navbar-container xyz-nested">
-                    <div className="max-width">
-                        <div className="home-logo" xyz="fade small stagger delay-4 ease-in-out">
-                            <span className="brandName">
+                <div className="navbar-container" xyz="fade left stagger">
+                    <div className="max-width xyz-nested">
+                        <div className="home-logo xyz-nested">
+                            <span className="brandName xyz-nested" xyz="fade big delay-5">
                                 <span> Visafied</span>
                             </span>
                         </div>
@@ -62,6 +61,40 @@ const HomePage = (props) => {
                     <div className="home-max-width1 max-width">
                         <div className="home-image1">
                         </div>
+                        <div className="home-content1">
+                            <span className="home-text09 beforeHeading">how it works</span>
+                            <h1 className="home-text10">
+                                <span className="home-text11">
+                                    Pay and get paid
+                                    <span
+                                        dangerouslySetInnerHTML={{
+                                            __html: ' ',
+                                        }}
+                                    />
+                                </span>
+                                <span className="home-text12">
+                                    faster
+                                    <span
+                                        dangerouslySetInnerHTML={{
+                                            __html: ' ',
+                                        }}
+                                    />
+                                </span>
+                                <span className="home-text13">than ever.</span>
+                                <span className="home-text14"></span>
+                            </h1>
+                            <span className="home-text15">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                amet sint. Velit officia consequat duis enim velit mollit.
+                                Exercitation veniam consequat sunt nostrud amet.
+                            </span>
+                            <div className="home-container02">
+                                <button className="button-secondary button bg-transparent">
+                                    Learn more
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div className="section-container">
